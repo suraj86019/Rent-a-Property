@@ -4,16 +4,12 @@ import SearchIcon from '@material-ui/icons/Search';
 
 const SearchBar = ({ value, changeInput }) => (
   <div >
-    
-   
-    <h3 className='malti-bar'>
+     <h3 className='malti-bar'>
      Search  Properties  to Rent
-     </h3>
-        
+     <span>
      
-
     <div className='searchBar-wrap'>
-    
+   
     <SearchIcon className='searchBar-icon' />
     <input
       type='text'
@@ -21,12 +17,11 @@ const SearchBar = ({ value, changeInput }) => (
       value={value}
       onChange={changeInput}
     />
-    
 
     </div>
-   
+    </span>
 
-
+</h3>
    
     
   </div>

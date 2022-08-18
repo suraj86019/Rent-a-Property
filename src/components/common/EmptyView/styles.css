@@ -1,11 +1,19 @@
+
 .emptyView-wrap {
+  
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
 .emptyView-wrap img {
-  max-width: 500px;
-  width: 100%;
+  max-width: 200px;
+  width: 40%;
+}
+.bt-l{
+  margin-top:10% ;
+  margin-left: 30%;
+  font-size: 2rem;
+  justify-content: center;
 }
 

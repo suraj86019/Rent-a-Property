@@ -1,57 +1,42 @@
 import React from 'react';
 import Home from './pages/Home';
 import './App.css';
-
-
-
 const App = () => 
 <div>
 <div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
+  <a class="navbar-brand" href="#">Estatery</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Rent <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Buy</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link " href="#">Sell</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Manage Property</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#">Resources</a>
       </li>
     </ul>
+    <form class="form-inline my-2 my-lg-0">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+      
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SignUp</button>
+    </form>
   </div>
-  <button type="button" class="btn btn-light">Login</button>
-  <button type="button" class="btn btn-primary">Signup</button>
 </nav>
-</div>
-<div>
-<nav class="navbar navbar-light bg-light justify-content-between">
-  <a class="navbar-brand my-2 my-sm-0">  Search  Properties  to Rent</a>
-  <form class="form-inline">
+ </div>
 
-    
-   
-  
-    {/* <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> */}
-    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-  </form>
-</nav>
-</div>
 <Home />;
 </div>
 
